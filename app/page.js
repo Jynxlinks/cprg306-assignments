@@ -15,6 +15,13 @@ export default function Page() {
        <Link href="week-3">Week 3</Link>
       </li>
     </ul>
+    <h1>CPRG 306 G: Web Development 4 - Assignment</h1>
+    <ul>
+      <li>
+       <Link href="week-4">Week 4</Link>
+      </li>
+    </ul>
+    
   </main>
   );
 }
