@@ -32,8 +32,8 @@ export default function SignInPage() {
                 <div>
                     <p>Welcome, {user.displayName || user.email}!</p>
                     {user.photoURL && <img src={user.photoURL} alt="User Profile" />}
-                    <Link href="/week-9/protected">
-                        <a className="text-blue-500">Go to Protected Page</a> {/* Add styling if needed */}
+                    <Link href="/week-10/shopping_list">
+                        <a className="text-blue-500">Go to Protected Page</a> {}
                     </Link>
                     <button type="button" className="text-white" onClick={handleSignOut}>Sign Out</button>
                 </div>
